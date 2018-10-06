@@ -25,4 +25,4 @@ class FilterAPI(TwythonStreamer):
         print(status_code)
 
 stream = FilterAPI(app_key, app_sec, user_key, user_sec)
-stream.statuses.filter(track=['florence', ' Florerence '])
+stream.statuses.filter(track=['midtermelections', '2018midterms','2018midtermelections','midterm','elections'])
